@@ -9,5 +9,5 @@ spec:
   project: default
   source:
     path: argocd
-    repoURL: https://github.com/omnidark/cloud-nation-infra
+    repoURL: https://github.com/cloud-nation/infra
     targetRevision: HEAD
