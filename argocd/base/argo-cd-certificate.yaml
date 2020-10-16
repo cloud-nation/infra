@@ -1,7 +1,7 @@
 apiVersion: cert-manager.io/v1alpha2
 kind: Certificate
 metadata:
-  name: argo-cd-cert
+  name: argo-cd-tls-cert
 spec:
   secretName: argocd-tls-argo
   issuerRef:
