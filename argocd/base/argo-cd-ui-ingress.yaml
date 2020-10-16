@@ -7,10 +7,10 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
     ingress.kubernetes.io/app-root: "/"
 spec:
-  # tls:
-  #   - hosts:
-  #     - argo.cloud-nation.club
-  #     secretName: argocd-tls-argo
+  tls:
+    - hosts:
+      - argo.cloud-nation.club
+      secretName: argocd-tls-argo
   rules:
   - host: argo.cloud-nation.club
     http:
