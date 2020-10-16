@@ -7,10 +7,10 @@ spec:
     server: https://acme-v02.api.letsencrypt.org/directory
     email: xlonelysoul94@gmail.com
     privateKeySecretRef:
-      name: letsencrypt-prod
+      name: letsencrypt
     solvers:
     # An empty 'selector' means that this solver matches all domains
     - selector: {}
       http01:
         ingress:
-          name: argo-cd-ui
+          name: nginx
