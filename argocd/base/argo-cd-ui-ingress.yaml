@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
     - hosts:
-      - cd.cloud-nation.club
-      secretName: argocd-secret-cd
+      - argo.cloud-nation.club
+      secretName: argocd-tls-argo
   rules:
-  - host: cd.cloud-nation.club
+  - host: argo.cloud-nation.club
     http:
       paths:
       - path: /
