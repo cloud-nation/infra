@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/part-of: argocd
   name: argocd-cm
 data:
-  admin.enabled: 'false'
+  admin.enabled: 'true'
   statusbadge.enabled: 'true'
   users.anonymous.enabled: 'true'
   ga.trackingid: 'UA-490257-44'
