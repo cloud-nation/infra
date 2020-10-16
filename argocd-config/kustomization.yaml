@@ -4,8 +4,8 @@ resources:
 - base/argocd.yaml
 - base/cert-manager.yaml
 - base/nginx-ingress.yaml
-# - base/external-dns.yaml
-# - base/elastic.yaml
+- base/dev-tenant-project.yaml
+- base/prod-tenant-project.yaml
 # - base/cert-manager.yaml
 # #- base/topolvm.yaml
 # - base/tenant-app-project.yaml

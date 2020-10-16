@@ -9,18 +9,18 @@ data:
   admin.enabled: 'true'
   statusbadge.enabled: 'true'
   users.anonymous.enabled: 'true'
-  ga.trackingid: 'UA-490257-44'
-  url: https://cd.govirto.com
+  # ga.trackingid: 'UA-490257-44'
+  url: https://argo.cloud-nation.club/
   dex.config: |
     connectors:
     - type: github
       id: github
       name: GitHub
       config:
-        clientID: ed45580cb97cc9608f25
-        clientSecret: $dex.github.clientSecret
+        clientID: $GITHUB_CLIENT_ID
+        clientSecret: $GITHUB_CLIENT_SECRET
         orgs:
-        - name: VirtoCommerce
+        - name: cloud-nation
           teams:
-          - Virto Operations
-          - Virto Commerce
+          - developers
+          - operations

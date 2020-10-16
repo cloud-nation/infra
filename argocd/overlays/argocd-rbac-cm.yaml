@@ -8,11 +8,11 @@ metadata:
 data:
   policy.default: role:readonly
   policy.csv: |
-    p, role:virto-developers, applications, get, tenant/*, allow
-    p, role:virto-developers, applications, sync, tenant/*, allow 
-    p, role:virto-developers, applications, delete, tenant/*, allow
-    p, role:virto-developers, applications, get, demo-tenant/*, allow
-    p, role:virto-developers, applications, sync, demo-tenant/*, allow    
-    p, role:virto-developers, clusters, get, *, allow
-    g, VirtoCommerce:Virto Operations, role:admin
-    g, VirtoCommerce:Virto Commerce, role:virto-developers
+    p, role:cloud-nation-developers, applications, get, dev-tenant/*, allow
+    p, role:cloud-nation-developers, applications, sync, dev-tenant/*, allow 
+    p, role:cloud-nation-developers, applications, delete, dev-tenant/*, allow
+    p, role:cloud-nation-developers, applications, get, prod-tenant/*, allow
+    p, role:cloud-nation-developers, applications, sync, prod-tenant/*, allow    
+    p, role:cloud-nation-developers, clusters, get, *, allow
+    g, cloud-nation:operations, role:admin
+    g, cloud-nation:developers, role:cloud-nation-developers
