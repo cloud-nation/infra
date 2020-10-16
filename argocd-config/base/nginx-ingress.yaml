@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: 'https://helm.nginx.com/stable/'
-    targetRevision: 0.5.0
-    chart: nginx-ingress
+    repoURL: 'https://kubernetes.github.io/ingress-nginx'
+    targetRevision: 3.7.1
+    chart: ingress-nginx
