@@ -9,7 +9,7 @@ spec:
   tls:
   - hosts:
     - argo.cloud-nation.club
-    secretName: argocd-secret
+    secretName: argocd-secret-tls
   rules:
   - host: argo.cloud-nation.club
     http:
