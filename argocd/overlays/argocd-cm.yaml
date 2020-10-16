@@ -18,7 +18,7 @@ data:
       name: GitHub
       config:
         clientID: d52b52a450b68064f48a
-        clientSecret: $dex.github.clientSecret
+        clientSecret: $GITHUB_CLIENT_SECRET
         orgs:
         - name: cloud-nation
           teams:
