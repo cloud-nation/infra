@@ -9,13 +9,9 @@ spec:
   project: default
   source:
     path: cert-manager
-    repoURL: https://github.com/virtocommerce/vc-deploy-infra
+    repoURL: https://github.com/cloud-nation/infra
   ignoreDifferences:
   - group: apiextensions.k8s.io
     jsonPointers:
     - /status
     kind: CustomResourceDefinition
-  - group: admissionregistration.k8s.io
-    jsonPointers:
-    - /status
-    kind: ValidatingWebhookConfiguration    
