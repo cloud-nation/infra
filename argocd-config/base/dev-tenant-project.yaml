@@ -8,7 +8,9 @@ spec:
   - '*'
   destinations:
   - namespace: dev
-    server: '*'   
+    server: '*'
+  - namespace: argocd
+    server: '*'  
   namespaceResourceBlacklist:
   - group: ''
     kind: ResourceQuota
