@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: argocd
     server: https://kubernetes.default.svc
-  project: tenant-app
+  project: prod-tenant
   source:
     path: apps-config/overlays/prod
     repoURL: https://github.com/cloud-nation/apps
@@ -30,7 +30,7 @@ spec:
   destination:
     namespace: argocd
     server: https://kubernetes.default.svc
-  project: tenant-app
+  project: dev-tenant
   source:
     path: apps-config/overlays/dev
     repoURL: https://github.com/cloud-nation/apps
