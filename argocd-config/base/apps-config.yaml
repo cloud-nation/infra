@@ -34,7 +34,7 @@ spec:
   source:
     path: apps-config/overlays/dev
     repoURL: https://github.com/cloud-nation/apps
-    targetRevision: HEAD
+    targetRevision: dev
   syncPolicy:
     automated:
       prune: true
