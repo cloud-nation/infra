@@ -1,5 +1,6 @@
-# cloud-nation-infra https://argo.cloud-nation.club/
-### GitOps project infrastructure componentes:
+# cloud-nation-infra
+### GitOps project infrastructure https://argo.cloud-nation.club/ 
+### componentes:
 
 > ArgoCD - included argocd components [![App Status](https://argo.cloud-nation.club/api/badge?name=argo-cd)](https://argo.cloud-nation.club/applications/argo-cd) 
 
