@@ -6,11 +6,11 @@ metadata:
 spec:
   limits:
   - default:
-      memory: 256Mi
+      memory: 128Mi
     defaultRequest:
       memory: 64Mi
     max:
-      memory: 3Gi
+      memory: 1Gi
     min:
       memory: 64Mi
     type: Container
@@ -23,11 +23,11 @@ metadata:
 spec:
   limits:
   - default:
-      memory: 256Mi
+      memory: 128Mi
     defaultRequest:
       memory: 64Mi
     max:
-      memory: 3Gi
+      memory: 1Gi
     min:
       memory: 64Mi
     type: Container  
