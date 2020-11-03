@@ -6,7 +6,7 @@ metadata:
 spec:
   limits:
   - default:
-      memory: 128Mi
+      memory: 256Mi
     defaultRequest:
       memory: 64Mi
     max:
@@ -23,7 +23,7 @@ metadata:
 spec:
   limits:
   - default:
-      memory: 128Mi
+      memory: 256Mi
     defaultRequest:
       memory: 64Mi
     max:
