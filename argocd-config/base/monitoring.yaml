@@ -17,3 +17,7 @@ spec:
     jsonPointers:
     - /status
     kind: CustomResourceDefinition
+  - group: apiregistration.k8s.io
+    jsonPointers:
+    - /status
+    kind: APIService
