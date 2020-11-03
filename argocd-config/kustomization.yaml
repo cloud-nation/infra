@@ -7,3 +7,4 @@ resources:
 - base/dev-tenant-project.yaml
 - base/prod-tenant-project.yaml
 - base/apps-config.yaml
+- base/monitoring.yaml
