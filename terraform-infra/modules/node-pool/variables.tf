@@ -1,2 +1,4 @@
 variable cluster {
 }
+variable size {
+}

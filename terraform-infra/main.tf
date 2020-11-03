@@ -28,6 +28,7 @@ module "cluster" {
 module "node-pool" {
   source  = "./modules/node-pool"
   cluster = module.cluster.k8s_cluster_id
+  size    = var.instances_count
 }
 
 module "vpc" {
