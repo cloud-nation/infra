@@ -5,7 +5,7 @@ resources:
 - base/argo-cd-issuer.yaml
 - base/argo-cd-certificate.yaml
 - base/argo-cd-ui-ingress.yaml
-- base/service-monitor.yaml 
+- metrics/service-monitor.yaml 
 #- base/http01-ingress.yaml
 
 patchesStrategicMerge:
