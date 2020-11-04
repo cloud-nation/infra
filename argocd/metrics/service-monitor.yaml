@@ -3,7 +3,7 @@ kind: ServiceMonitor
 metadata:
   name: argocd-metrics
   labels:
-    app: prometheus
+    prometheus: kube-prometheus
 spec:
   selector:
     matchLabels:
@@ -16,7 +16,7 @@ kind: ServiceMonitor
 metadata:
   name: argocd-server-metrics
   labels:
-    app: prometheus
+    prometheus: kube-prometheus
 spec:
   selector:
     matchLabels:
@@ -29,7 +29,7 @@ kind: ServiceMonitor
 metadata:
   name: argocd-repo-server-metrics
   labels:
-    app: prometheus
+    prometheus: kube-prometheus
 spec:
   selector:
     matchLabels:
