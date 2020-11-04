@@ -16,4 +16,4 @@ metadata:
 spec:
   hard:
     limits.memory: 2Gi
-    pods: "8"
+    pods: "10"
