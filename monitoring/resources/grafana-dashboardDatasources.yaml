@@ -13,26 +13,26 @@ metadata:
   namespace: monitoring
 data:
   datasource.yaml: |
-  apiVersion: 1
-  datasources:
-  - name: prometheus
-    access: proxy
-    editable: false
-    orgId: 1
-    type: prometheus
-    url: http://prometheus-k8s.monitoring.svc:9090
-    version: 1
-  - name: prometheus-dev
-    access: proxy
-    editable: false
-    orgId: 1
-    type: prometheus
-    url: http://prometheus-frontend.dev.svc:9090
-    version: 1
-  - name: prometheus=prod
-    access: proxy
-    editable: false
-    orgId: 1
-    type: prometheus
-    url: http://prometheus-frontend.prod.svc:9090
-    version: 1  
+    apiVersion: 1
+    datasources:
+    - name: prometheus
+      access: proxy
+      editable: false
+      orgId: 1
+      type: prometheus
+      url: http://prometheus-k8s.monitoring.svc:9090
+      version: 1
+    - name: prometheus-dev
+      access: proxy
+      editable: false
+      orgId: 1
+      type: prometheus
+      url: http://prometheus-frontend.dev.svc:9090
+      version: 1
+    - name: prometheus=prod
+      access: proxy
+      editable: false
+      orgId: 1
+      type: prometheus
+      url: http://prometheus-frontend.prod.svc:9090
+      version: 1  
