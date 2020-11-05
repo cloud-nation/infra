@@ -9,3 +9,4 @@
 > CertManager - [![App Status](https://argo.cloud-nation.club/api/badge?name=cert-manager)](https://argo.cloud-nation.club/applications/cert-manager)
 
 > Nginx Ingress - [![App Status](https://argo.cloud-nation.club/api/badge?name=nginx-ingress)](https://argo.cloud-nation.club/applications/nginx-ingress)
+
