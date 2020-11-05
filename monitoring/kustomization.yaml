@@ -14,7 +14,7 @@ resources:
     - ./resources/alertmanager-service.yaml
     - ./resources/alertmanager-serviceAccount.yaml
     - ./resources/alertmanager-serviceMonitor.yaml
-    - ./resources/grafana-dashboardDatasources.yaml
+    - ./datasources/grafana-dashboardDatasources.yaml
     - ./resources/grafana-dashboardDefinitions.yaml
     - ./resources/grafana-dashboardSources.yaml
     - ./resources/grafana-deployment.yaml
