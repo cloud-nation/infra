@@ -9,4 +9,3 @@ resources:
 - base/prod-tenant-project.yaml
 - base/apps-config.yaml
 - base/monitoring.yaml
-- base/traefik.yaml
