@@ -9,7 +9,6 @@ data:
   admin.enabled: 'true'
   statusbadge.enabled: 'true'
   users.anonymous.enabled: 'true'
-  # ga.trackingid: 'UA-490257-44'
   url: https://argo.cloud-nation.club/
   dex.config: |
     connectors:
