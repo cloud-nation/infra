@@ -1,17 +1,18 @@
-ingressClass:
-  enabled: true
-deployment:
-  enabled: true
-  replicas: 3
-providers:
-  kubernetesCRD:
+traefik:
+  ingressClass:
     enabled: true
-    namespaces: []
-      # - "default"
-  kubernetesIngress:
+  deployment:
     enabled: true
-    namespaces: []
-      # - "default"
-    # IP used for Kubernetes Ingress endpoints
-    publishedService:
+    replicas: 3
+  providers:
+    kubernetesCRD:
       enabled: true
+      namespaces: []
+        # - "default"
+    kubernetesIngress:
+      enabled: true
+      namespaces: []
+        # - "default"
+      # IP used for Kubernetes Ingress endpoints
+      publishedService:
+        enabled: true
