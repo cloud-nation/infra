@@ -1,3 +1,17 @@
 ingressClass:
-  enabled: 'true'
-providers.kubernetesIngress.publishedService.enabled: 'true'
+  enabled: true
+deployment:
+  enabled: true
+  replicas: 3
+providers:
+  kubernetesCRD:
+    enabled: true
+    namespaces: []
+      # - "default"
+  kubernetesIngress:
+    enabled: true
+    namespaces: []
+      # - "default"
+    # IP used for Kubernetes Ingress endpoints
+    publishedService:
+      enabled: true
