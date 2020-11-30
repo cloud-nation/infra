@@ -6,14 +6,15 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/cloud-nation/infra'
-    targetRevision: HEAD
-    path: traefik
+    repoURL: 'https://helm.traefik.io/traefik'
+    targetRevision: 9.8.0
     helm:
-      repoURL: 'https://helm.traefik.io/traefik'
-      chart: traefik 
-      chartVersion: 9.8.0
-      valueFiles: ['values.yaml']
+      parameters:
+      - name: ingressClass.enabled
+        value: 'true'
+      - name: providers.kubernetesIngress.publishedService.enabled
+        value: 'true'
+    chart: traefik 
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: traefik 

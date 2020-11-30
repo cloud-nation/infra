@@ -1,0 +1,3 @@
+ingressClass:
+  enabled: 'true'
+providers.kubernetesIngress.publishedService.enabled: 'true'
